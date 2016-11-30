@@ -1,0 +1,148 @@
+body {
+    margin: 0;
+    background-image: url("../IMG/bg1.jpg");
+}
+
+@font-face {
+    font-family: fontcelt;
+    src: url("../FONT/CELTICHD.TTF");
+}
+
+@font-face {
+    font-family: fontboom;
+    src: url("../FONT/BADABB__.TTF");
+}
+
+#divcenter {
+    position: relative;
+    height: 500px;
+    width: 700px;
+    margin: auto;
+    margin-top: -70px;
+}
+
+#titre {
+    height: 150px;
+    width: 700px;
+    border: solid grey 1px;
+    border-radius: 37%;
+    background-color: rgba(106, 180, 165, 0.6);
+    transition: all 2s;
+}
+
+#titre:hover {
+    background-color: rgb(106, 180, 165);
+    transition: all 2s;
+}
+
+h1 {
+    text-align: center;
+    color: yellow;
+    text-shadow: 0px 0px 10px red;
+    font-family: fontboom;
+    font-size: 4em;
+}
+
+input {
+    margin-left: 45%;
+    transition: all 1s;
+}
+
+input:hover {
+    background-color: rgb(216, 100, 20);
+    transition: all 1s;
+}
+
+#joueurs {
+    height: 100px;
+    width: 100%;
+    margin-top: 10px;
+    text-align: center;
+    font-weight: bold;
+}
+
+#joueur1 {
+    float: left;
+    margin-left: 30px;
+    height: 100px;
+    width: 200px;
+    background-color: rgb(216, 100, 20);
+    color: yellow;
+    font-size: 1.1em;
+    border-radius: 40%;
+    transition: all 1s;
+    text-shadow: 0px 0px 3px red;
+    font-family: fontcelt;
+}
+
+#joueur2 {
+    float: right;
+    margin-right: 30px;
+    height: 100px;
+    width: 200px;
+    background-color: rgb(216, 100, 20);
+    color: yellow;
+    font-size: 1.1em;
+    border-radius: 40%;
+    transition: all 1s;
+    text-shadow: 0px 0px 3px red;
+    font-family: fontcelt;
+}
+
+table {
+    height: 300px;
+    width: 500px;
+    margin: auto;
+    margin-top: 90px;
+    text-align: center;
+    font-size: 4em;
+    font-weight: bold;
+    box-shadow: 0px 0px 11px 15px rgb(46, 110, 125);
+}
+
+table td {
+    height: 33%;
+    width: 33%;
+    background-color: rgba(46, 70, 165, 0.8);
+}
+
+.Player1 {
+    background-color: rgb(46, 110, 125);
+    color: black;
+}
+
+.Player2 {
+    background-color: rgb(216, 100, 20);
+    color: white;
+}
+
+#winner {
+    position: absolute;
+    height: 170px;
+    width: 400px;
+    background-color: red;
+    color: yellow;
+    visibility: hidden;
+    top: 45%;
+    left: 35%;
+    text-align: center;
+    font-family: fontcelt;
+    font-weight: bold;
+    font-size: 3em;
+}
+
+#null {
+    position: absolute;
+    height: 170px;
+    width: 400px;
+    background-color: red;
+    color: yellow;
+    visibility: hidden;
+    top: 45%;
+    left: 35%;
+    text-align: center;
+    font-family: fontcelt;
+    font-weight: bold;
+    font-size: 3em;
+
+}
